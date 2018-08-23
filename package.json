@@ -1,0 +1,18 @@
+{
+  "name": "botoneabot",
+  "version": "1.0.0",
+  "description": "Telegram bot",
+  "main": "main.js",
+  "scripts": {
+    "dev": "BOT_TOKEN=aValidToken DB_USER=aValidUser DB_PASSWORD=aValidPassword nodemon main.js"
+  },
+  "author": "VeraBE",
+  "dependencies": {
+    "npm": "^6.4.0",
+    "pg": "^7.4.3",
+    "telegraf": "^3.22.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
